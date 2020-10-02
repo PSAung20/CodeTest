@@ -1,0 +1,437 @@
+
+		@media only screen and (min-width: 960px) {
+
+		body {
+			margin:20px auto;
+		}
+		 #nav, #footer{
+		 	clear: both;
+		 	height: 100px;
+		 	
+		 	/*background-color: silver;*/
+		 	/*margin-bottom: 20px;*/
+		 }
+		 #footer {
+		 	width: 90%;
+		 	background-color: darkcyan;
+		 	margin:0px auto;
+		 	/*margin:20px 0;*/
+		 }
+		 #footer img{
+		 	margin:15px 0;
+		 }
+
+		 
+		 .nav_left {
+		 	width:25%;
+		 	float: left;
+		 	
+		 }
+		 .nav_right{
+		 	width:55%;
+		 	/*background-color: red;*/
+		 	height: 70px;
+		 	text-align:right;
+		 	line-height: 70px;
+		 	float: right;
+		 	margin-right: 100px;
+		 }
+
+		 .menu {
+		 	margin:0 100px 0 0;
+		 }
+
+
+
+		 .menu a, #footer a {
+		 	text-decoration: none;
+		 	color:gray;
+		 	margin:0 30px;
+		 	line-height: 70px;
+		 	font-size: 16px;
+		 	font-weight: bold;
+		 	cursor: pointer;
+
+		 }
+
+		 #footer a{
+		 	color:white;
+		 }
+
+		 #footer > .nav_right {
+
+		 	margin-top: 20px;
+		 }
+
+		 .mobile, .mobile1 {
+		 	margin:0 40px 0 0;
+		 	font-size: 25px;
+		 	line-height: 70px;
+		 	display: none;
+		 }
+
+		 .toggle {
+		 	display: none;
+		 }
+
+		 .content {
+		 	width:90%;
+		 	margin:0px auto;
+		 }
+
+		 .content p {
+		 	padding:20px 300px;
+		 	font-size: 30px;
+		 	text-align: justify-all;
+		 	color: darkcyan;
+		 	background-color: white;
+		 }
+
+		 .con1, .con2{
+		 	width: 30%;
+		 	padding: 30px;
+		 	font-size: 25px;
+		 	text-align: center;
+		 	color:darkcyan;
+		 	background-color: silver;
+		 	margin-left:180px;
+		 	float: left;
+		 	margin-bottom: 50px;
+		 }
+
+		 .con2 {
+		 	float: right;
+		 	margin-right:180px;
+		 }
+
+		 .con1:hover, .con2:hover {
+		 	background-color: darkcyan;
+		 	color:white;
+		 }
+
+		 .minitext {
+		 	width:75%;
+		 	border:2px solid darkcyan;
+		 	height:170px;
+		 	line-height:3em;
+		 	overflow:auto;
+		 	text-align: left;
+		 	padding: 5px 30px;
+		 	font-size: 20px;
+		 	margin-bottom: 50px;
+		 }
+
+		 .biograph {
+		 	width: 90%;
+		 	background-color: darkcyan;
+		 	margin:0px auto;
+		 	margin-bottom: 50px;
+		 }
+
+		 .biograph p{
+		 	/*background-color: black;*/
+		 	color: white;
+		 	width:50%;
+		 	padding: 0px 60px;
+		 	float: right;
+		 	margin-right: 110px;
+		 	text-align: justify;
+		 	font-size: 15px;
+		 }
+
+		 .biograph img {
+		 	width:380px; 
+		 	height:380px; 
+		 	margin-left: 175px;
+		 	float: left;
+		 }
+
+		 .title_right{
+		 	padding: 0px 100px;
+		 	color: white;
+		 	font-size: 18px;
+		 	float: right;
+		 	margin-right: 70px;
+		 }
+
+		 .title_left {
+		 	padding: 30px 100px;
+		 	color: white;
+		 	font-size: 25px;
+		 	text-align: left;
+		 }
+
+		 .box {
+		 	width: 75%;
+		 	background-color: white;
+		 	height: 500px;
+		 	margin:0px auto;
+		 }
+
+		 .box h3 {
+		 	font-size: 30px;
+		 	color:darkcyan;
+		 	text-align: center;
+		 }
+
+		 .box1, .box2 {
+		 	width: 46%;
+		 	background-color: white;
+		 	height: auto;
+		 	float: left;
+		 	margin-left: 30px;
+		 	border:1px solid silver;
+		 	margin-bottom: 30px;
+		 }
+
+		 .box2 {
+		 	float: right;
+		 	margin-right: 30px;
+		 }
+
+		 .box img {
+		 	border-radius: 50%;
+		 	float: right;
+		 	width: 200px;
+		 	height: 200px;
+		 	margin: 20px 20px 20px 0px;
+		 }
+
+		 .box label {
+		 	font-size: 20px;
+		 	padding: 20px 0 0 20px;
+		 	color:darkcyan;
+		 	float: left;
+		 }
+
+		 .box p {
+		 	width: 370px;
+		 	font-size: 16px;
+		 	color:gray;
+		 	padding: 0px 20px;
+		 	float: left;
+		 	text-align: justify;
+		 }
+
+		 .copyright {
+		 	width: 90%;
+		 	margin:0px auto;
+		 	height: 70px;
+		 	line-height: 70px;
+		 }
+
+		 .copyright label {
+		 	font-size: 20px;
+		 	color:darkcyan;
+		 	float: left;
+		 	margin-left: 120px;
+		 }
+
+		 .copyright span {
+		 	font-size: 20px;
+		 	color:darkcyan;
+		 	float: right;
+		 	margin-right: 130px;
+		 }
+
+		} 
+		@media only screen and (max-width: 600px) {
+		  [class*="col-"] {
+		    width: 100%;
+		  }
+
+		  .nav_left {
+		 	/*background-color: navy;*/
+		 	float: right;
+		 	/*margin-right: 120px;*/
+		 }
+
+		  .toggle {
+		  	display: none;
+		  }
+
+		  .mobile {
+		  	display: block;
+		  	cursor: pointer;
+		  	font-size: 60px;
+		  	color:darkcyan;
+		  	margin-left: 40px;
+		  }
+
+		  .nav_left img{
+		  	height: 30px;
+		  	margin:25px 200px 0 0;
+		  }
+
+		  .nav_right > .menu {
+		  	text-align: center;
+		  	width:100%;
+		  	display: none;
+		  }
+
+		  .nav_right > .menu a {
+		  	display: block;
+		  	text-decoration: none;
+		  	border-bottom: 1px solid silver;
+		  	margin:0 10px;
+		 	line-height: 70px;
+		 	color:gray;
+		 	font-size: 16px;
+		 	font-weight: bold;
+		  }
+
+		  .content p {
+		 	padding:20px 33px;
+		 	font-size: 20px;
+		 	text-align: justify-all;
+		 	color: darkcyan;
+		 	background-color: white;
+		 }
+
+		 .con1, .con2{
+		 	width: 80%;
+		 	font-size: 20px;
+		 	text-align: center;
+		 	padding: 20px 0px;
+		 	color:darkcyan;
+		 	background-color: silver;
+		 	margin-bottom: 20px;
+		 }
+
+		 .con1:hover, .con2:hover {
+		 	background-color: darkcyan;
+		 	color:white;
+		 }
+
+		 .minitext {
+		 	width:85%;
+		 	border:2px solid darkcyan;
+		 	height:200px;
+		 	line-height:3em;
+		 	overflow:auto;
+		 	text-align: left;
+		 	padding: 10px;
+		 	font-size: 13px;
+		 	margin-bottom: 20px;
+		 }
+
+		 .biograph {
+		 	width: 100%;
+		 	background-color: darkcyan;
+		 	margin:0px auto;
+		 }
+
+		 .biograph img {
+		 	width:300px; 
+		 	height:300px; 
+		 	margin:0px 50px;
+		 }
+
+		 .title_left {
+		 	padding: 30px 50px;
+		 	color: white;
+		 	font-size: 25px;
+		 	text-align: left;
+		 }
+
+		 .title_right{
+		 	padding: 0px 33px;
+		 	color: white;
+		 	font-size: 18px;
+		 	float: right;
+		 }
+
+		 .biograph p{
+		 	/*background-color: black;*/
+		 	color: white;
+		 	padding: 0px 30px;
+		 	float: right;
+		 	text-align: justify;
+		 	font-size: 15px;
+		 }
+
+		.box1, .box2 {
+		 	width: 100%;
+		 	background-color: white;
+		 	height: auto;
+		 	border:1px solid silver;
+		 	margin:0px auto;
+		 }
+
+		 .box h3 {
+		 	font-size: 30px;
+		 	color:darkcyan;
+		 	text-align: center;
+		 }
+
+		 .box img {
+		 	border-radius: 50%;
+		 	width: 200px;
+		 	height: 200px;
+		 	margin: 10px 0;
+		 }
+
+		 .box label {
+		 	font-size: 20px;
+		 	padding: 20px;
+		 	color:darkcyan;
+		 	text-align: right;
+		 }
+
+		 .box p {
+		 	font-size: 16px;
+		 	color:gray;
+		 	padding: 2px 150px;
+		 	text-align: justify;
+		 }
+		 #footer {
+		 	width: 100%;
+		 	background-color: darkcyan;
+		 }
+
+		 #footer > .nav_left {
+		 	width :100%;
+		 }
+		 #footer > .nav_right{
+		 	width :100%;
+		 }
+		 #footer > .nav_left > img {
+		 	float: left;
+		 	margin-left: 50px;
+		 }
+		#footer > .nav_right > .menu1 > a {
+			background-color: darkcyan;
+			display: block;
+		 	text-decoration: none;
+		 	color:white;
+		 	margin:0 30px;
+		 	line-height: 70px;
+		 	font-size: 16px;
+		 	font-weight: bold;
+		 	cursor: pointer;
+		 	text-align: center;
+		 	border-bottom: 1px solid silver;
+		 }
+
+		 .mobile1 {
+		  	display: none;
+		  }
+
+		  .copyright {
+		 	width: 100%;
+		 	margin:0px auto;
+
+		 }
+
+		 .copyright label, .copyright span {
+		 	font-size: 15px;
+		 	color:darkcyan;
+		 }
+
+/*		 .copyright span {
+		 	font-size: 15px;
+		 	color:darkcyan;
+		 	padding: 0px 20px;
+		 }*/
+
+		}
